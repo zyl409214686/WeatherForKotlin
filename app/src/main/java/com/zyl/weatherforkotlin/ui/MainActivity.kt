@@ -1,4 +1,4 @@
-package com.zyl.weatherforkotlin
+package com.zyl.weatherforkotlin.ui
 
 import android.graphics.Color
 import android.os.Build
@@ -8,14 +8,15 @@ import android.view.Gravity
 import android.view.View
 import android.widget.ImageView
 import com.google.gson.Gson
+import com.zyl.weatherforkotlin.R
 import com.zyl.weatherforkotlin.weatherapi.BaseData
 import com.zyl.weatherforkotlin.weatherapi.Weather
 import org.jetbrains.anko.*
 import org.jetbrains.anko.custom.async
 import java.net.URL
 
-class MainActivity : AppCompatActivity(), AnkoLogger  {
-    var mWeatherImageView:ImageView ? = null
+class MainActivity : AppCompatActivity(), AnkoLogger {
+    var mWeatherImageView: ImageView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
