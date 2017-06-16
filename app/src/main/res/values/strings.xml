@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">天气通</string>
+    <string name="home_title">北京今日天气</string>
 </resources>
