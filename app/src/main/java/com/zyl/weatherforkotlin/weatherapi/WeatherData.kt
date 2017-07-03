@@ -9,7 +9,7 @@ package com.zyl.weatherforkotlin.weatherapi
  * Person in charge :  zouyulong
  * Leader : lixiao
  */
-data class Weather(var data:String, var high:String, var low:String, var fengli:String,
+data class Weather(var date:String, var high:String, var low:String, var fengli:String,
                    var type:String)
 data class YesterdayWeather(var data:String, var high:String, var low:String, var fl:String,
                    var fx:String, var type:String)
