@@ -4,4 +4,4 @@
 组件上使用了主要是使用了一个带动画的自定义RecyclerView结合Anko来实现整体UI
 的显示。UI 图标、数据都来源于网络。
 
-[图片展示]{https://github.com/zyl409214686/WeatherForKotlin/screenshot/weather.png}
+![截屏](https://github.com/zyl409214686/WeatherForKotlin/blob/master/screenshot/weather.png)
